@@ -1,12 +1,17 @@
 /* CSS Document */
 body {
 	margin:0;
+	font-family:byekan;
+	}
+body a {
+	color:black;
 	}
 #menu{
-	background:#bcbcbc;
+	background: -moz-linear-gradient(#C7C7C7, #CBA7D3); /* For Firefox 3.6 to 15 */;
 	float:right;
 	width:100%;
 	height:55px;
+	position:relative;
 	}
 #menu ul {
 	margin-top:0.5%;
@@ -18,65 +23,142 @@ body {
 	list-style:none;
 	float:right;
 	text-align:right;
-	margin:4px 1.8% 15px 3%;
+	margin:0px 1.8% 15px 3%;
 	font-size:17px;
 	font-weight:bold;
 	cursor:pointer;
 	transition:all ease-in 1 ease-out 0;
 	position:relative;
-	}
+	height:46px;
 	
+	}
 #menu ul li:hover{
 	display:inline;
 	list-style:none;
 	float:right;
 	text-align:right;
 	margin:4px 1.8% 15px 3%;
-	font-size:21px;
+	font-size:18px;
 	color:white;
 	border-radius:5px 5px 5px 5px;
 	}
 #menu ul li img {
 	position: absolute;
     right: 113%;
-    top: 12%;
+    top: 18.4%;
 	}
 #menu ul li:hover img {
      -webkit-transition: -webkit-transform .3s none;
      transition:transform .3s none;
 	 -webkit-transform: rotate(180deg);
      transform: rotate(180deg);
-	 width:25px;
-	 height:25px;
-		} 
-	
+	 width:22px;
+	 height:22px;
+		} 	
 #menu #login{
-	 margin-left: 20%;
+	 position: absolute;
+     left: 13%;
 	 float: left;
 	 line-height: 2;
 	 cursor:pointer;
 	}
 #menu #loginicon img  {
-	margin-left: 1%;
-	height: 62%;
+	cursor: pointer;
+    height: 60%;
+    left: 16%;
+    position: absolute;
     width: 3%;
-	cursor:pointer;
 	}
 #menu #signup{
-	float: left;
+	cursor: pointer;
+    float: left;
+    left: 3%;
     line-height: 2;
-    margin-left: -11%;
-	cursor:pointer;
+    position: absolute;
 	}
 #menu #signupicon img  {
-	height: 55%;
-    margin-left: -11.8%;
+	height: 56%;
+	position: absolute;
+    left: 7%;
     width: 2%;
 	cursor:pointer;
 	}
+#menu #buybasket  {
+	background:-moz-linear-gradient(#D0CDCD,#EC22E5);
+    border-radius: 8px;
+    font-family: byekan;
+    height: 65%;
+    left: 27%;
+    padding-right: 8px;
+    padding-top: 5px;
+    position: absolute;
+    text-align: right;
+    width: 12%;
+	cursor:pointer;
+	}
+#menu #buybasket i {
+	 font-size: 200%;
+	 padding-top:0px !important;
+	}
+#menu #buybasket #buytxt {
+	float: left;
+    margin-left: 45%;
+    margin-top: 0px;
+	font-size: 90% !important;
+	}  
+#menu #buybasket #buynumber  {
+	background: rgba(224,209,224,1.00);
+    border-radius: 100%;
+    float: left;
+    font-family: byekan;
+    height: 72%;
+    margin-left: 8%;
+    margin-top: -18%;
+    text-align: center;
+    width: 14%;
+    font-size: 90%;
+	}
+#menu ul #guidesubmenu	 {
+	position:relative !important;
+	}	
+#menu ul #guidesubmenu ul li {
+	color: white !important;
+    display: inline !important ;
+    font-size: 64% !important;
+    list-style: outside none none !important;
+    width: 100% !important;
+    z-index: 5 !important;
+	margin-bottom:1px !important;
+	cursor:pointer !important;
+	}
+#menu ul #guidesubmenu ul li:hover {
+	color:red !important;
+	}	
+#submenu {
+	background: rgba(207,207,207,1.00);
+    display: none;
+    float: right;
+    height: 90px;
+	font-size:100%;
+	font-family:byekan;
+    position: absolute;
+    width: 169px;
+    z-index: 20;
+    top: 98%;
+	padding:1px;
+    right: 80%;
+    border-radius: 5px;
+	}
+.fixed {
+		width:100% !important;
+		position:fixed !important;
+		top:0 !important;
+		z-index:1000 !important;
+					
+}
 #header  {
 	width:100%;
-	height:180px;
+	height:250px;
 	background:url(../img/icons%20pattern.png) repeat  ;
 	float:right;
 	position:relative;
@@ -86,36 +168,26 @@ body {
 #header h2,#header h4 {
 	margin:0;
 	padding:0;
-	}
-	
+	}	
 #header input {
-	width:60%;
-	height:50px;
-	display:block;
-	margin:1.5% auto;
-	border:2px solid #CCCCCC;
-	text-align:right;
-	padding-right:1%;
-	font-size:15px;
-	font-family:byekan;
-	
-
+	  border: 2px solid #cccccc;
+    display: block;
+    font-family: byekan;
+    font-size: 15px;
+    height: 50px;
+    margin-bottom: 1.5%;
+    margin-left: 27%;
+    margin-top: 1.5%;
+    padding-right: 1%;
+    text-align: right;
+    width: 46%;
 	}
-
-#header #filtericon img {
-    cursor: pointer;
-    height: 24%;
-    left: 23%;
-    position: absolute;
-    top: 60%;
-    width: 3%;
-}
 #header #searchicon img  {
-	cursor: pointer;
-    height: 25%;
-    left: 20.5%;
+	 cursor: pointer;
+    height: 17%;
+    left: 27.5%;
     position: absolute;
-    top: 60%;
+    top: 45%;
     width: 2%;
 	}
 #header #logo img {
@@ -139,8 +211,7 @@ body {
     padding: 0;
     width: 75%;
 	
-	}
-	
+	}	
 #mainbody #slider ul li img {
 	border-radius: 50px;
 	display: block;
@@ -173,74 +244,338 @@ body {
 	 border:3px outset #FFF;
 	}
 #mainbody #books {
-	float:right;
-	width:100%;
-	height:100%;
-	margin:20px auto;
-
-	}
-#mainbody #books li {
-	list-style:none;
-	margin:1.5%;
-	float:right;
-	width:16%;
-	border:3px inset #666;
-	padding:0;
-	height:400px;
+	border: 3px ridge black;
+    height: 313px ;
+    margin: 0px 1% auto ;
+	width:97% ;
+	float:right ;
 	position:relative;
+			}
+#mainbody #books li,#mainbody #books_general li {
+	border: 3px inset #666;
+    float: right ;
+    height: 200px;
+    list-style: outside none none;
+    margin: 1.2% ;
+    padding: 0 ;
+    position: relative ;
+    width: 9%;
 	}
+#mainbody #books li img,#mainbody #books_general li img{
+	height: 63% !important;
+    margin: 0 auto !important;
+    position: absolute !important;
+    right: 9% !important;
+    text-align: center !important;
+    width: 80% !important; 
+	}
+#mainbody #books li:hover  img ,#mainbody #books_general li:hover img{
+	width:82% !important;
+	height:64% !important; 
 
-#mainbody #books li img	  {
-	height: 63%;
-    margin: 0 auto;
+	}
+#mainbody #books li #name ,#mainbody #books_general li #name{
+	bottom: 25% !important;
+    display: block !important;
+    font-family: byekan !important;
+    font-size: 51% !important;
+    position: absolute !important;
+    right: 16% !important;
+    text-align: center !important;
+	
+	}
+#mainbody #books li #secondprice,#mainbody #books li #firstprice ,#mainbody #books_general li #secondprice, #mainbody #books_general li #firstprice {
+	bottom: 12% !important;
+    color: green !important;
+    display: block !important;
+    font-family: byekan !important;
+    font-size: 52% !important;
+    font-weight: bold !important;
+    position: absolute !important;
+    right: 18% !important;
+    text-align: center !important;
+	
+	}
+#mainbody #books li #firstprice,#mainbody #books_general li #firstprice {
+	 bottom: 18% !important;
+    color: red !important;
+    right: 15% !important;
+    text-decoration: line-through !important;
+	}
+#mainbody #books li i ,#mainbody #books_general li i{
+	 bottom: 1% !important;
+    position: absolute !important;
+	left: 5% !important;
+	background-color:#9F0 !important;
+	padding:3% !important;
+	cursor:pointer !important;
+	
+	}
+#mainbody #books #next i,#mainbody #books #prev i ,#mainbody #books_general #next i,#mainbody #books_general #prev i{
     position: absolute;
-    right: 9%;
-    text-align: center;
-    width: 80%;
-	 
-	}
-#mainbody #books li:hover  img  {
-	width:82%;
-	height:64%; 
-   
-    
-	
-	}
-#mainbody #books li #name {
-	display:block;
-	text-align:center;
-	font-family:byekan;
-	font-size:70%;
-	position: absolute;
-	right:30%;
-	bottom:30%;
-	
-	}
-#mainbody #books li #secondprice ,#mainbody #books li #firstprice {
-	display:block;
-	text-align:center;
-	font-family:byekan;
-	font-size:70%;
-	position: absolute;
-	right:33%;
-	bottom:24%;
-	color:green;
-	font-weight:bold;
-	
-	}
-#mainbody #books li #firstprice {
-	text-decoration:line-through;
-	color:red !important;
-	right:33% !important;
-	bottom:18% !important;
-	
-	}
-#mainbody #books li i {
-	 bottom: 1%;
-    position: absolute;
-	left: 5%;
-	background-color:#9F0;
-	padding:3%;
+    right: 2px;
+    top: 113px;
+    font-size: 113%;
+	z-index:5;
+	display:none;
 	cursor:pointer;
+	}
+#mainbody #books #prev i,#mainbody #books_general #prev i{
+	left:2px !important;
+}
+#mainbody #books_header #special,#mainbody #books_header #new,#mainbody #books_header #popular {
+	border: 3px ridge black;
+    float: left;
+    font-family: byekan;
+    margin-left: 21px;
+    margin-top: 46px;
+    text-align: center;
+    width: 30%;
+	cursor:pointer;
+	}
+#mainbody #books_header {
+	float:right;
+	margin: 5px auto !important;
+	width:97% !important;
+	}
+.active_books_header {
+	border: 3px ridge white !important ;
+    color: white;
+    font-weight: bold;
+	} 
+.jcarousel-div{
+    width:100% !important;
+	height:313px !important;
+}
+#footer {
+	width:100%;
+	height:200px;
+	background:#ABABAB;
+	float:right;
+	margin-top:10px;
+	color:white;
+	font-family:byekan;
+	text-align:center;
+	font-size:90%;
+	direction:rtl;
+	}
+#footer #source {
+    float: left;
+    margin-left: 37%;
+    margin-top: 9px;
+}
+#footer #rightpart {
+	float: right;
+    margin: 5px;
+	margin-top:80px;
+	width:20%;
 	
+}
+#footer #rightpart #rightpartimg{
+	
+	display:block;
+	float: right;
+    margin: 5px;
+	
+}
+#subfooter{
+	width:100%;
+	height:50px;
+	background:black;
+	float:right;
+	margin-top:5px;
+	line-height:40px;
+	color:white;
+	font-family:byekan;
+	text-align:center;
+	font-size:90%;
+	direction:rtl;
+}
+#footer #logo {
+	 border-radius: 100%;
+    float: left;
+    height: 51%;
+    margin: 3%;
+    width: 7%;
+	
+	}
+#footer #logotxt {
+	float: left;
+    margin-left: -10%;
+    margin-top: 10% !important;
+	
+	} 
+#mainbody #books_general-header	
+{
+   background: rgba(196,156,207,1.00) none repeat scroll 0 0;
+    border-radius: 71px;
+    float: right;
+    font-family: byekan;
+    font-size: 100%;
+    height: 9px;
+    line-height: 3px;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: right;
+    width: 97%;
+	
+	}
+#mainbody #books_general , #mainbody #book_detail {
+    background: #EFE0F4 none repeat scroll 0 0;
+    float: right;
+    height: 600px;
+    margin-right: 0.5%;
+    margin-top: 10px;
+	margin-bottom: 10px;
+    overflow:auto;
+    width: 96% !important;
+	padding-right:3% !important;
+	border-radius: 94px !important;
+	font-family:byekan;
+}
+#mainbody #books_general li {
+	width:9.5% !important;
+	margin:2.2% !important;
+	
+	
+	}
+#general-show i,#detail-show i {
+		    cursor: pointer;
+			float: left;
+			margin-left: 1%;
+		
+		}
+#book_detail ul li {
+		list-style:none;
+		float:right !important;
+		border-bottom:2px solid #CF3BC9;
+		padding:2px;
+		}
+#book_detail ul li img{
+			float: right;
+			height: 280px;
+			margin-left: 1.7%;
+			margin-right: 3%;
+			margin-top: 2%;
+			width: 15%;
+			}
+#book_detail ul li #name , #book_detail ul li #language ,#book_detail ul li #writer-describtion , #book_detail ul li #subject,#book_detail ul li 			#note,#book_detail ul li #status{
+		float:right;
+		margin:10px;
+		width:78%;
+		direction:rtl;
+		text-align:right;
+	}
+#book_detail ul li i{
+		background:#EF0AD1;
+		cursor: pointer;
+		float: left;
+		font-size: 180%;
+		margin-bottom: 5px;
+		padding: 8px;
+	}
+#enter button,#register button{
+	background: #95E097 none repeat scroll 0 0;
+    font-family: byekan;
+    font-size: 100%;
+    height: 13%;
+    line-height: 0;
+    margin-right: 72.5%;
+    width: 25%;
+	cursor:pointer;
+	}
+#register button {
+	height:9% !important;
+}
+#enter {
+		float: left;
+		height: 250px;
+		width: 19%;
+		background:#B9ECE6;
+		font-family:byekan;
+		font-size:100%;
+		direction:rtl;
+		z-index:1;
+		border:inset;
+		}
+#enter .name{
+		text-align:right;
+		}
+#enter input{
+	width:70%;
+	margin-right:20% !important;
+		}
+#enter i ,#register i{
+		 margin:5px !important;
+		 float:right !important;
+		 cursor:pointer;
+		 }
+#register {
+		float: left;
+		height: 335px;
+		width: 19%;
+		background:#B9ECE6;
+		font-family:byekan;
+		font-size:100%;
+		direction:rtl;
+		z-index:1;
+		border:inset;
+		}
+#register .name{
+		text-align:right;
+		}
+#register input{
+		width:70%;
+		margin-right:20% !important;
+		}
+#mainbody #rules {
+	direction: rtl;
+    text-align: right;
+    width: 80%;
+    margin-right: 12% !important;
+    float: right;
+	
+	 }
+#mainbody #rulesheader {
+	font-size:140%;
+	 border-bottom:15px groove rgba(60,192,186,1.00);
+	}
+#mainbody #rulesbody { 
+font-size:90% !important;
+}
+#contactus {
+	float:right;
+	width:280px;
+	height:320px;
+	border-radius:3px;
+	background: -moz-linear-gradient(#B5B5B5 ,#EB9BDB); /* For Firefox 3.6 to 15 */;
+	text-align:right;
+	direction:rtl;
+	padding:10px;
+	margin-right:0px;
+	}
+#contactus #name,#contactus #lastname,#contactus #email,#contactus #emailtxt{
+	display:block;
+}
+#contactus textarea {
+	width:49%;
+	}
+#contactus input,#contactus textarea {
+	float:left;
+	}
+#contactus button {
+	float: right;
+    margin-right: 10%;
+    margin-top: 33%;
+    width: 30%;
+	}
+#contactus i {
+	cursor:pointer;
+	}
+.fixedcontactus {
+	
+	position:fixed !important;
+	bottom:0 !important;
+	right:0 !important;
+	z-index:1000 !important;
 	}
