@@ -1,0 +1,246 @@
+/* CSS Document */
+body {
+	margin:0;
+	}
+#menu{
+	background:#bcbcbc;
+	float:right;
+	width:100%;
+	height:55px;
+	}
+#menu ul {
+	margin-top:0.5%;
+	margin-bottom:0.5%;
+	
+	}
+#menu ul li{
+	display:inline;
+	list-style:none;
+	float:right;
+	text-align:right;
+	margin:4px 1.8% 15px 3%;
+	font-size:17px;
+	font-weight:bold;
+	cursor:pointer;
+	transition:all ease-in 1 ease-out 0;
+	position:relative;
+	}
+	
+#menu ul li:hover{
+	display:inline;
+	list-style:none;
+	float:right;
+	text-align:right;
+	margin:4px 1.8% 15px 3%;
+	font-size:21px;
+	color:white;
+	border-radius:5px 5px 5px 5px;
+	}
+#menu ul li img {
+	position: absolute;
+    right: 113%;
+    top: 12%;
+	}
+#menu ul li:hover img {
+     -webkit-transition: -webkit-transform .3s none;
+     transition:transform .3s none;
+	 -webkit-transform: rotate(180deg);
+     transform: rotate(180deg);
+	 width:25px;
+	 height:25px;
+		} 
+	
+#menu #login{
+	 margin-left: 20%;
+	 float: left;
+	 line-height: 2;
+	 cursor:pointer;
+	}
+#menu #loginicon img  {
+	margin-left: 1%;
+	height: 62%;
+    width: 3%;
+	cursor:pointer;
+	}
+#menu #signup{
+	float: left;
+    line-height: 2;
+    margin-left: -11%;
+	cursor:pointer;
+	}
+#menu #signupicon img  {
+	height: 55%;
+    margin-left: -11.8%;
+    width: 2%;
+	cursor:pointer;
+	}
+#header  {
+	width:100%;
+	height:180px;
+	background:url(../img/icons%20pattern.png) repeat  ;
+	float:right;
+	position:relative;
+	font-family:byekan;
+	text-align:center;
+	}
+#header h2,#header h4 {
+	margin:0;
+	padding:0;
+	}
+	
+#header input {
+	width:60%;
+	height:50px;
+	display:block;
+	margin:1.5% auto;
+	border:2px solid #CCCCCC;
+	text-align:right;
+	padding-right:1%;
+	font-size:15px;
+	font-family:byekan;
+	
+
+	}
+
+#header #filtericon img {
+    cursor: pointer;
+    height: 24%;
+    left: 23%;
+    position: absolute;
+    top: 60%;
+    width: 3%;
+}
+#header #searchicon img  {
+	cursor: pointer;
+    height: 25%;
+    left: 20.5%;
+    position: absolute;
+    top: 60%;
+    width: 2%;
+	}
+#header #logo img {
+	border-radius: 80px;
+    float: right;
+    height: 90%;
+    position: absolute;
+    right: 2%;
+    top: 8%;
+    width: 17%;
+	}
+#mainbody {
+	background-color:#F4F4F4;
+	float:right;
+	width:100%;
+	height:100%;
+	}
+#mainbody #slider ul li {
+    list-style: outside none none;
+    margin: 0 auto;
+    padding: 0;
+    width: 75%;
+	
+	}
+	
+#mainbody #slider ul li img {
+	border-radius: 50px;
+	display: block;
+    height: 35%;
+    margin: 0 auto;
+    width: 80%;
+	border:15px ridge #C9D7D8;
+	}
+#mainbody #slidernumber  {
+	margin:0;
+	margin-right:46%;
+
+	}
+#mainbody #slider #slidernumber li{
+	background-color: #C0C0C0;
+    border-radius: 100%;
+    display: inline;
+    float: right;
+    font-family: byekan;
+    list-style: outside none none;
+    text-align: center;
+    width: 4%;
+	margin: 0 0.1% 5px 0;
+    border:1px outset #808080;
+	}
+.activeslidernumber {
+	color:white;
+	background-color:#333;
+	font-weight:bold;
+	 border:3px outset #FFF;
+	}
+#mainbody #books {
+	float:right;
+	width:100%;
+	height:100%;
+	margin:20px auto;
+
+	}
+#mainbody #books li {
+	list-style:none;
+	margin:1.5%;
+	float:right;
+	width:16%;
+	border:3px inset #666;
+	padding:0;
+	height:400px;
+	position:relative;
+	}
+
+#mainbody #books li img	  {
+	height: 63%;
+    margin: 0 auto;
+    position: absolute;
+    right: 9%;
+    text-align: center;
+    width: 80%;
+	 
+	}
+#mainbody #books li:hover  img  {
+	width:82%;
+	height:64%; 
+   
+    
+	
+	}
+#mainbody #books li #name {
+	display:block;
+	text-align:center;
+	font-family:byekan;
+	font-size:70%;
+	position: absolute;
+	right:30%;
+	bottom:30%;
+	
+	}
+#mainbody #books li #secondprice ,#mainbody #books li #firstprice {
+	display:block;
+	text-align:center;
+	font-family:byekan;
+	font-size:70%;
+	position: absolute;
+	right:33%;
+	bottom:24%;
+	color:green;
+	font-weight:bold;
+	
+	}
+#mainbody #books li #firstprice {
+	text-decoration:line-through;
+	color:red !important;
+	right:33% !important;
+	bottom:18% !important;
+	
+	}
+#mainbody #books li i {
+	 bottom: 1%;
+    position: absolute;
+	left: 5%;
+	background-color:#9F0;
+	padding:3%;
+	cursor:pointer;
+	
+	}
