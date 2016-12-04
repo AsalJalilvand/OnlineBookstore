@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+
+<head>
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/font.css">
+<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+<meta charset="utf-8">
+<title>پرداخت الکترونیکی به پرداخت ملت</title>
+</head>
+<style>
+Body {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: url(img/bg.jpg);
+	font-family:byekan;
+	font-size:14px;
+	direction:rtl;
+}
+#bill_logo{
+ height: 130px;
+    width: 632px;
+	margin:10px auto;
+	display:block;	
+	position:relative;
+}
+#maindiv {
+	background-color: #d7d7d7;
+    border-color: #898989;
+    border-style: solid;
+    border-width: thin;
+    text-align: center;
+    width: 640px;
+	margin:10px auto;
+	height:540px;
+	padding:10px;
+	}
+#logo{
+	float: right;
+    position: absolute;
+    right: 0;
+    top: 15px;
+	
+	}
+#card_number {
+	border-bottom: 2px solid rgba(244, 86, 14, 1);
+	}
+#card_info #headertxt {
+	margin-bottom:30px;
+	float:right;
+	text-align:center;
+	display:block;
+	width:100%;
+	}
+#card_info	#card_number{
+	float:right;
+	text-align:right;
+	margin-bottom:10px;
+	width:100%;}
+Body button {
+	 background-color: green;
+    color: #121212;
+    font-size: 12px;
+    width: 130px;
+	height:50px;
+	margin-top:0px;
+	font-family:byekan;
+	cursor:pointer;
+	}
+</style>
+<body>
+<div id="maindiv">
+<div id="bill_logo">
+<span id="logo"><img src="img/logo.png" width="163" height="49" alt=""/></span><!--logo-->
+<img src="img/bill_logo.jpg" width="632" height="130" alt=""/>
+</div><!--bill_logo-->
+<!--headerpart-->
+<div id="card_info">
+<div id="headertxt"><b>لطفا جهت تکمیل خرید بر روی دکمه ی تکمیل خرید کلیک کنید</b></div><!--headertxt-->
+<button id="completebuying" type="submit">تکمیل خرید</button>
+<span id="card_number">
+شماره ارجاع:111111
+</br>
+نام پذیرنده:رایانمهر
+</br>
+آدرس سایت پذیرنده:www.echarge.ir
+</br>
+مبلغ:1000 تومان
+</br>
+شماره کارت:11111
+</br>
+بانک صادر کننده:صادرات
+</br>
+نوع تراکنش:خرید
+</br>
+شماره پیگیری:122345
+</br>
+</span>
+
+</div><!--card_info-->
+
+</div><!--maindiv-->
+</body>
+<script>
+$('#completebuying').click(function(){
+swal({
+  title: "لطفا منتظر بمانید",
+  text: "جهت ادامه ی فرایند خرید بر روی دکمه ی ok کلیک نمایید",
+  type: "",
+  showCancelButton: true,
+  closeOnConfirm: false,
+  showLoaderOnConfirm: true,
+},
+function(){
+  setTimeout(function(){
+    swal("پرداخت با موفقیت انجام شد.");
+  }, 2000);
+});
+})
+</script>
+</html>

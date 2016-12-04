@@ -2,8 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="css/style.css">
-
-<link rel='shortcut icon' href='img/bookstore logo.jpg' type='image/x-icon' />
+<link rel='shortcut icon' href='img/Capture.PNG' type='image/x-icon' />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 <script src="js/jquery-3.1.0.min.js"></script>
 <script src="js/jqueryslider.js"></script>
@@ -12,49 +11,296 @@
 <title>فروشگاه آنلاین کتاب</title>
 </head>
 <body>
+<div id="menuless327">
+<i id="menuless327icon" class="fa fa-list-ul fa-2x fa fa-flip-horizontal" aria-hidden="true"></i>
+<ul style="display:none">
+         <a href="index.html"><li>خانه</li></a>
+        
+        <a href="question.html"><li>قوانین</li></a>
+        <a href="aboutus.html" ><li>درباره ی ما</li></a>
+        <a href="#contactus"><li>تماس با ما</li></a>
+    </ul> <!--menupart-->
+    <a href="enter.html"><img src="img/login.png"  alt=""/></a><!--login-->
+    <a href="register.html"><span id="signupicon"><i class="fa fa-sign-in fa-flip-horizontal" aria-hidden="true"></i>
+</span></a><!--signup-->
+  <a href="buy.html"> <span id="buybasket">
+        <i class="fa fa-shopping-cart " aria-hidden="true" ></i>
+        <span id="buynumber">0</span><!--buynumber-->
+        </span></a><!--buybasket-->
+</div><!--menuless327-->
+<div id="menuless768">
+
+<ul>
+         <a href="index.html"><li>خانه</li></a>
+        
+        <a href="question.html"><li>قوانین</li></a>
+        <a href="aboutus.html" ><li>درباره ی ما</li></a>
+        <a href="#contactus"><li>تماس با ما</li></a>
+    </ul> <!--menupart-->
+    <a href="enter.html"><img src="img/login.png"  alt=""/></a><!--login-->
+    <a href="register.html"><span id="signupicon"><i class="fa fa-sign-in fa-flip-horizontal" aria-hidden="true"></i>
+</span></a><!--signup-->
+  <a href="buy.html"> <span id="buybasket">
+        <i class="fa fa-shopping-cart " aria-hidden="true" ></i>
+        <span id="buynumber">0</span><!--buynumber-->
+        </span></a><!--buybasket-->
+</div><!--menuless768-->
 <div id="menu">
     <ul>
          <a href="index.html"><li>خانه</li></a>
-        <li id="guidesubmenu"><img src="img/arrow-up.png" width="20" height="20"  alt=""/>راهنما
-        <div id="submenu"  style="display:none">
-        	<ul>
-                 <li>راهنمای خرید کتاب</li>
-                 <li>راهنمای جستجوی کتاب</li>
-        	</ul><!--guidesubmenu-->
-         </div><!--submenu-->
-        </li>
+        
         <a href="question.html"><li>قوانین</li></a>
         <a href="aboutus.html" ><li>درباره ی ما</li></a>
+        <a href="#contactus"><li>تماس با ما</li></a>
     </ul> <!--menupart-->
-    <span id="login">ورود</span><span id="loginicon"><img src="img/skill-gap.png"  alt=""/></span><!--login-->
-    <span id="signup">ثبت نام</span><span id="signupicon"><img src="img/icon1.png"   alt=""/></span><!--signup-->
-   <span id="buybasket">
+    <a href="enter.html"><span id="login">ورود</span><span id="loginicon"><img src="img/login.png"  alt=""/></span></a><!--login-->
+    <a href="register.html"><span id="signup">ثبت نام</span><span id="signupicon"><i class="fa fa-sign-in fa-flip-horizontal fa-2x" aria-hidden="true"></i>
+</span></a><!--signup-->
+  <a href="buy.html"> <span id="buybasket">
     	<span id="buytxt">سبد خرید</span><!--buytxt-->
         <i class="fa fa-shopping-cart " aria-hidden="true" ></i>
         <span id="buynumber">0</span><!--buynumber-->
-        </span><!--buybasket-->
+        </span></a><!--buybasket-->
 </div><!--menu-->
 <div id="header">
- <div id="enter" style="display:none;">
-    <i class="fa fa-times-circle" aria-hidden="true"></i>
-    <span class="name"><span>نام کاربری: </span><input type="text" value="نام کاربری"></span>
-    <span class="name"><span>رمز عبور : &nbsp;&nbsp;&nbsp;</span><input type="password" value=""></span>
-    <button type="button" >ورود</button>
-    </div>  <!--enter-->
- <div id="register" style="display:none;">
-    <i class="fa fa-times-circle" aria-hidden="true"></i>
-    <span class="name"><span>نام کاربری: </span><input type="text" value="نام کاربری"></span>
-    <span class="name"><span>ایمیل: </span><input type="email" value="example@gmail.com"></span>
-    <span class="name"><span>رمز عبور : &nbsp;&nbsp;&nbsp;</span><input type="password" value=""></span>
-    <button type="button" >ثبت نام</button>
-    </div>  <!--register-->
 <h2> اینجــــا یک کتابخانه دیجیتالی است</h2>
-<h4> با بیش از 100000 منبع الکترونیکی رایگان به زبان فارسی ، عربی و انگلیسی</h4>
-    <span id="searchicon"><img  src="img/search.png"></span><!--searchicon-->
+<h4> با بیش از 100000 منبع الکترونیکی رایگان</h4>
+    <span id="searchpart"><a href="searchrightpart.html"><i class="fa fa-search" aria-hidden="true"></i></a>
 	<input type="search" placeholder="...جستجو">
-    <span id="logo"><img  src="img/bookstore logo.jpg"></span><!--logo-->
+    <select>
+    <option>سال چاپ</option>
+     <option>نام کتاب</option>
+     <option>نویسنده</option>
+    </select>
+    </span><!--searchpart-->
 </div><!--header-->
 <div id="mainbody">
+    <div id="rightpart">
+    <ul>
+    <a href="searchrightpart.html">
+    <li class="rightpartli">مذهبی
+    <ul>
+        <li>کتاب 1</li>
+        <li>کتاب 2</li>
+        <li>کتاب 3</li>
+	</ul>
+    </li>
+    
+    </a>
+    <a href="searchrightpart.html">
+    <li class="rightpartli">مهندسی کامپیوتر
+    <ul>
+        <li >کتاب 1</li>
+        <li>کتاب 2</li>
+        <li>کتاب 3</li>
+	</ul>
+    </li>
+    
+    </a>
+    <a href="searchrightpart.html">
+    <li class="rightpartli">فناوری ااطلاعات
+    <ul>
+        <li>کتاب 1</li>
+        <li>کتاب 2</li>
+        <li>کتاب 3</li>
+	</ul>
+    </li>
+    
+    </a>
+    <a href="searchrightpart.html">
+    <li class="rightpartli">عمومی
+    <ul>
+        <li>کتاب 1</li>
+        <li>کتاب 2</li>
+        <li>کتاب 3</li>
+	</ul>
+    </li>
+    
+    </a>
+    <a href="searchrightpart.html">
+    <li class="rightpartli">فرهنگی
+    <ul>
+        <li class>کتاب 1</li>
+        <li>کتاب 2</li>
+        <li>کتاب 3</li>
+	</ul>
+    </li>
+    
+    </a>
+    <a href="searchrightpart.html">
+    <li class="rightpartli">نجوم
+    <ul>
+        <li class>کتاب 1</li>
+        <li>کتاب 2</li>
+        <li>کتاب 3</li>
+	</ul>
+    </li>
+    
+    </a>
+    <a href="searchrightpart.html">
+    <li class="rightpartli">ادبیات
+    <ul>
+        <li class>کتاب 1</li>
+        <li>کتاب 2</li>
+        <li>کتاب 3</li>
+	</ul>
+    </li>
+    
+    </a>
+    <a href="searchrightpart.html">
+    <li class="rightpartli">روانشناسی
+    <ul>
+        <li>کتاب 1</li>
+        <li>کتاب 2</li>
+        <li>کتاب 3</li>
+	</ul>
+    </li>
+    
+    </a>
+    <a href="searchrightpart.html">
+    <li class="rightpartli">زمین شناسی
+    <ul>
+        <li>کتاب 1</li>
+        <li>کتاب 2</li>
+        <li>کتاب 3</li>
+	</ul>
+    </li>
+    
+    </a>
+    <a href="searchrightpart.html">
+    <li class="rightpartli">اقتصادی
+    <ul>
+        <li>کتاب 1</li>
+        <li>کتاب 2</li>
+        <li>کتاب 3</li>
+	</ul>
+    </li>
+    
+    </a>
+    <li class="poll">نظر سنجی:</li>
+    <li class="poll" style="margin-top:0px">کیفیت کتاب های سایت در چه سطحی است؟</li>
+    <li class="poll" style="margin-top:0px">عالی <input type="radio"></li>
+    <li class="poll" style="margin-top:0px">خوب <input type="radio"></li>
+    <li class="poll" style="margin-top:0px">متوسط <input type="radio"></li>
+    <li class="poll" style="margin-top:0px">ضعیف <input type="radio"></li>
+    </ul>
+   <!--newsletterimg-->
+    </div><!--rightmenu-->
+    <div id="rightpartmin327">
+    <span style="float:right;font-family:byekan;font-size:100%;text-align:center;direction:rtl;">مشاهده ی دسته  بندی کتاب ها:</span>
+    <i class="fa fa-list-alt" aria-hidden="true"></i>
+    <ul style="display:none">
+    <a href="searchrightpart.html">
+    <li class="rightpartli">مذهبی
+    <ul>
+        <li>کتاب 1</li>
+        <li>کتاب 2</li>
+        <li>کتاب 3</li>
+	</ul>
+    </li>
+    
+    </a>
+    <a href="searchrightpart.html">
+    <li class="rightpartli">مهندسی کامپیوتر
+    <ul>
+        <li >کتاب 1</li>
+        <li>کتاب 2</li>
+        <li>کتاب 3</li>
+	</ul>
+    </li>
+    
+    </a>
+    <a href="searchrightpart.html">
+    <li class="rightpartli">فناوری ااطلاعات
+    <ul>
+        <li>کتاب 1</li>
+        <li>کتاب 2</li>
+        <li>کتاب 3</li>
+	</ul>
+    </li>
+    
+    </a>
+    <a href="searchrightpart.html">
+    <li class="rightpartli">عمومی
+    <ul>
+        <li>کتاب 1</li>
+        <li>کتاب 2</li>
+        <li>کتاب 3</li>
+	</ul>
+    </li>
+    
+    </a>
+    <a href="searchrightpart.html">
+    <li class="rightpartli">فرهنگی
+    <ul>
+        <li>کتاب 1</li>
+        <li>کتاب 2</li>
+        <li>کتاب 3</li>
+	</ul>
+    </li>
+    
+    </a>
+    <a href="searchrightpart.html">
+    <li class="rightpartli">نجوم
+    <ul>
+        <li>کتاب 1</li>
+        <li>کتاب 2</li>
+        <li>کتاب 3</li>
+	</ul>
+    </li>
+    
+    </a>
+    <a href="searchrightpart.html">
+    <li class="rightpartli">ادبیات
+    <ul>
+        <li>کتاب 1</li>
+        <li>کتاب 2</li>
+        <li>کتاب 3</li>
+	</ul>
+    </li>
+    
+    </a>
+    <a href="searchrightpart.html">
+    <li class="rightpartli">روانشناسی
+    <ul>
+        <li>کتاب 1</li>
+        <li>کتاب 2</li>
+        <li>کتاب 3</li>
+	</ul>
+    </li>
+    
+    </a>
+    <a href="searchrightpart.html">
+    <li class="rightpartli">زمین شناسی
+    <ul>
+        <li>کتاب 1</li>
+        <li>کتاب 2</li>
+        <li>کتاب 3</li>
+	</ul>
+    </li>
+    
+    </a>
+    <a href="searchrightpart.html">
+    <li class="rightpartli">اقتصادی
+    <ul>
+        <li>کتاب 1</li>
+        <li>کتاب 2</li>
+        <li>کتاب 3</li>
+	</ul>
+    </li>
+    
+    </a>
+    <li class="poll">نظر سنجی:</li>
+    <li class="poll" style="margin-top:0px">کیفیت کتاب های سایت در چه سطحی است؟</li>
+    <li class="poll" style="margin-top:0px">عالی <input type="radio"></li>
+    <li class="poll" style="margin-top:0px">خوب <input type="radio"></li>
+    <li class="poll" style="margin-top:0px">متوسط <input type="radio"></li>
+    <li class="poll" style="margin-top:0px">ضعیف <input type="radio"></li>
+    </ul>
+   <!--newsletterimg-->
+    </div><!--rightpartmin327-->
+    
+    <div id="leftpart">
     <div id="books_header">
     <span id="special" >ویژه ها</span><!--special-->
     <span id="popular">محبوب ها</span><!--popular-->
@@ -63,354 +309,358 @@
 	<div id="books">
         <div class="jcarousel-div">
         <ul  class="new">
-         <li> 
-                 <img src="img/book1.jpg" />
+         <li> <a href="bookpage.html">
+                 <img src="img/-.jpg" />
                <span id="name">نام کتاب:احکام عزاداری</span>
                 <span id="firstprice">100000:قیمت اولیه</span>
                 <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book1.jpg" />
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
                <span id="name">نام کتاب:احکام عزاداری</span>
                 <span id="firstprice">100000:قیمت اولیه</span>
                 <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book1.jpg" />
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
                <span id="name">نام کتاب:احکام عزاداری</span>
                 <span id="firstprice">100000:قیمت اولیه</span>
                 <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book1.jpg" />
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
                <span id="name">نام کتاب:احکام عزاداری</span>
                 <span id="firstprice">100000:قیمت اولیه</span>
                 <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book1.jpg" />
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
                <span id="name">نام کتاب:احکام عزاداری</span>
                 <span id="firstprice">100000:قیمت اولیه</span>
                 <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book1.jpg" />
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
                <span id="name">نام کتاب:احکام عزاداری</span>
                 <span id="firstprice">100000:قیمت اولیه</span>
                 <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book1.jpg" />
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
                <span id="name">نام کتاب:احکام عزاداری</span>
                 <span id="firstprice">100000:قیمت اولیه</span>
                 <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book1.jpg" />
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
                <span id="name">نام کتاب:احکام عزاداری</span>
                 <span id="firstprice">100000:قیمت اولیه</span>
                 <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book1.jpg" />
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
                <span id="name">نام کتاب:احکام عزاداری</span>
                 <span id="firstprice">100000:قیمت اولیه</span>
                 <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book1.jpg" />
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
                <span id="name">نام کتاب:احکام عزاداری</span>
                 <span id="firstprice">100000:قیمت اولیه</span>
                 <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book1.jpg" />
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
                <span id="name">نام کتاب:احکام عزاداری</span>
                 <span id="firstprice">100000:قیمت اولیه</span>
                 <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book1.jpg" />
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
                <span id="name">نام کتاب:احکام عزاداری</span>
                 <span id="firstprice">100000:قیمت اولیه</span>
                 <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li> 
+                
+            </a> </li>
+         
         </ul> <!--new-->
-        </div><!--jcarousel_div-->
-        <ul  class="new" style="display:none">
-         <li> 
-                 <img src="img/book1.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book1.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book1.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book1.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book1.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book1.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book1.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book1.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book1.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book1.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book1.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book1.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li> 
-        </ul> <!--new-->
-        <ul class="popular" style="display:none" >
-         <li> 
-                 <img src="img/book2.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book2.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book2.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book2.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book2.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book2.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book2.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book2.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book2.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book2.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book2.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book2.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-           
-        </ul> <!--popular-->
-        <ul class="special" style="display:none">
-         <li> 
-                 <img src="img/book3.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book3.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book3.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book3.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book3.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book3.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book3.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book3.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-		 <li> 
-                 <img src="img/book3.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book3.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book3.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book3.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-
-        </ul> <!--special-->
         <span id="next" ><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
         <span id="prev"><i class="fa fa-arrow-left" aria-hidden="true"></i></span>
+        </div><!--jcarousel_div-->
+        <ul  class="new" style="display:none">
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book3.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         
+        </ul> <!--new-->
+        <ul class="popular" style="display:none" >
+        <li> <a href="bookpage.html">
+                 <img src="img/book4.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+        <li> <a href="bookpage.html">
+                 <img src="img/book4.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+        <li> <a href="bookpage.html">
+                 <img src="img/book4.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+        <li> <a href="bookpage.html">
+                 <img src="img/book4.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+        <li> <a href="bookpage.html">
+                 <img src="img/book4.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+        <li> <a href="bookpage.html">
+                 <img src="img/book4.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+        <li> <a href="bookpage.html">
+                 <img src="img/book4.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+        <li> <a href="bookpage.html">
+                 <img src="img/book4.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+        <li> <a href="bookpage.html">
+                 <img src="img/book4.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+        <li> <a href="bookpage.html">
+                 <img src="img/book4.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+        <li> <a href="bookpage.html">
+                 <img src="img/book4.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+        <li> <a href="bookpage.html">
+                 <img src="img/book4.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         
+        </ul> <!--popular-->
+        <ul class="special" style="display:none">
+         <li> <a href="bookpage.html">
+                 <img src="img/book6.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book6.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book6.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book6.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book6.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book6.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book6.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book6.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book6.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book6.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book6.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+         <li> <a href="bookpage.html">
+                 <img src="img/book6.jpg" />
+               <span id="name">نام کتاب:احکام عزاداری</span>
+                <span id="firstprice">100000:قیمت اولیه</span>
+                <span id="secondprice">50000:قیمت نهایی</span>
+                
+            </a> </li>
+          
+
+        </ul> <!--special-->
+        
     </div><!--books--> 
     <span id="books_general-header" >
     <span id="book-exists">سایر کتاب های موجود </span><!--book-exists-->
@@ -419,138 +669,76 @@
     </span><!--books_general-header-->
     <div id="books_general">
        <ul>
-         <li> 
+         <a href="bookpage.html"><li> 
                  <img src="img/book1.jpg" />
                <span id="name">نام کتاب:احکام عزاداری</span>
                 <span id="firstprice">100000:قیمت اولیه</span>
                 <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book2.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book3.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book4.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book5.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book6.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book7.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book8.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book9.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book10.jpg" />
-               <span id="name">نام کتاب:احکام عزاداری</span>
-                <span id="firstprice">100000:قیمت اولیه</span>
-                <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
+                
+             </li></a>
+         <a href="bookpage.html"><li> 
                  <img src="img/book1.jpg" />
                <span id="name">نام کتاب:احکام عزاداری</span>
                 <span id="firstprice">100000:قیمت اولیه</span>
                 <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
+                
+             </li></a>
+         <a href="bookpage.html"><li> 
                  <img src="img/book1.jpg" />
                <span id="name">نام کتاب:احکام عزاداری</span>
                 <span id="firstprice">100000:قیمت اولیه</span>
                 <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li> 
-         <li> 
-                 <img src="img/book2.jpg" />
+                
+             </li></a>
+         <a href="bookpage.html"><li> 
+                 <img src="img/book1.jpg" />
                <span id="name">نام کتاب:احکام عزاداری</span>
                 <span id="firstprice">100000:قیمت اولیه</span>
                 <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li> 
-         <li> 
-                 <img src="img/book3.jpg" />
+                
+             </li></a>
+         <a href="bookpage.html"><li> 
+                 <img src="img/book1.jpg" />
                <span id="name">نام کتاب:احکام عزاداری</span>
                 <span id="firstprice">100000:قیمت اولیه</span>
                 <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book4.jpg" />
+                
+             </li></a>
+         <a href="bookpage.html"><li> 
+                 <img src="img/book1.jpg" />
                <span id="name">نام کتاب:احکام عزاداری</span>
                 <span id="firstprice">100000:قیمت اولیه</span>
                 <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book4.jpg" />
+                
+             </li></a>
+         <a href="bookpage.html"><li> 
+                 <img src="img/book1.jpg" />
                <span id="name">نام کتاب:احکام عزاداری</span>
                 <span id="firstprice">100000:قیمت اولیه</span>
                 <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book4.jpg" />
+                
+             </li></a>
+         <a href="bookpage.html"><li> 
+                 <img src="img/book1.jpg" />
                <span id="name">نام کتاب:احکام عزاداری</span>
                 <span id="firstprice">100000:قیمت اولیه</span>
                 <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-                 <img src="img/book4.jpg" />
+                
+             </li></a>
+         <a href="bookpage.html"><li> 
+                 <img src="img/book1.jpg" />
                <span id="name">نام کتاب:احکام عزاداری</span>
                 <span id="firstprice">100000:قیمت اولیه</span>
                 <span id="secondprice">50000:قیمت نهایی</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
+                
+             </li></a>
+         
      </ul>
     </div><!--books_general-->
   
     <div id="book_detail" style="display:none">
       <ul>
-         <li> 
+         <a href="bookpage.html"><li> 
                <img src="img/book1.jpg" />
                <span id="name">نام کتاب: تحلیلی از زندگانی سیاسی امام حسن مجتبی (ع)</span>
                 <span id="language">زبان:فارسی</span>
@@ -564,10 +752,11 @@
 عنوان از روی صفحه نمایش عنوان
 داده های الکترونیکی </span>
 			<span id="status">وضعیت نشر الکترونیکی:  موسسه فرهنگی و اطلاع رسانی تبیان ، 1387</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-               <img src="img/book2.jpg" />
+            <span id="firstprice" style="color:red;text-decoration:line-through;font-family:byekan;font-size:20px;float:right; margin-right: 21%;">100000:قیمت اولیه</span>
+              <span id="secondprice" style="color:green;;font-family:byekan;font-size:20px;float:left; margin-left: 50%;">قیمت نهایی:5000</span>
+             </li></a>
+         <a href="bookpage.html"><li> 
+               <img src="img/book1.jpg" />
                <span id="name">نام کتاب: تحلیلی از زندگانی سیاسی امام حسن مجتبی (ع)</span>
                 <span id="language">زبان:فارسی</span>
                 <span id="writer-describtion">مترجم:محمد سپهری</span>
@@ -580,10 +769,11 @@
 عنوان از روی صفحه نمایش عنوان
 داده های الکترونیکی </span>
 			<span id="status">وضعیت نشر الکترونیکی:  موسسه فرهنگی و اطلاع رسانی تبیان ، 1387</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-               <img src="img/book3.jpg" />
+            <span id="firstprice" style="color:red;text-decoration:line-through;font-family:byekan;font-size:20px;float:right; margin-right: 21%;">100000:قیمت اولیه</span>
+              <span id="secondprice" style="color:green;;font-family:byekan;font-size:20px;float:left; margin-left: 50%;">قیمت نهایی:5000</span>
+             </li></a>
+         <a href="bookpage.html"><li> 
+               <img src="img/book1.jpg" />
                <span id="name">نام کتاب: تحلیلی از زندگانی سیاسی امام حسن مجتبی (ع)</span>
                 <span id="language">زبان:فارسی</span>
                 <span id="writer-describtion">مترجم:محمد سپهری</span>
@@ -596,10 +786,11 @@
 عنوان از روی صفحه نمایش عنوان
 داده های الکترونیکی </span>
 			<span id="status">وضعیت نشر الکترونیکی:  موسسه فرهنگی و اطلاع رسانی تبیان ، 1387</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-               <img src="img/book4.jpg" />
+            <span id="firstprice" style="color:red;text-decoration:line-through;font-family:byekan;font-size:20px;float:right; margin-right: 21%;">100000:قیمت اولیه</span>
+              <span id="secondprice" style="color:green;;font-family:byekan;font-size:20px;float:left; margin-left: 50%;">قیمت نهایی:5000</span>
+             </li></a>
+         <a href="bookpage.html"><li> 
+               <img src="img/book1.jpg" />
                <span id="name">نام کتاب: تحلیلی از زندگانی سیاسی امام حسن مجتبی (ع)</span>
                 <span id="language">زبان:فارسی</span>
                 <span id="writer-describtion">مترجم:محمد سپهری</span>
@@ -612,10 +803,11 @@
 عنوان از روی صفحه نمایش عنوان
 داده های الکترونیکی </span>
 			<span id="status">وضعیت نشر الکترونیکی:  موسسه فرهنگی و اطلاع رسانی تبیان ، 1387</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
-         <li> 
-               <img src="img/book5.jpg" />
+            <span id="firstprice" style="color:red;text-decoration:line-through;font-family:byekan;font-size:20px;float:right; margin-right: 21%;">100000:قیمت اولیه</span>
+              <span id="secondprice" style="color:green;;font-family:byekan;font-size:20px;float:left; margin-left: 50%;">قیمت نهایی:5000</span>
+             </li></a>
+         <a href="bookpage.html"><li> 
+               <img src="img/book1.jpg" />
                <span id="name">نام کتاب: تحلیلی از زندگانی سیاسی امام حسن مجتبی (ع)</span>
                 <span id="language">زبان:فارسی</span>
                 <span id="writer-describtion">مترجم:محمد سپهری</span>
@@ -628,23 +820,26 @@
 عنوان از روی صفحه نمایش عنوان
 داده های الکترونیکی </span>
 			<span id="status">وضعیت نشر الکترونیکی:  موسسه فرهنگی و اطلاع رسانی تبیان ، 1387</span>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-             </li>
+            <span id="firstprice" style="color:red;text-decoration:line-through;font-family:byekan;font-size:20px;float:right; margin-right: 21%;">100000:قیمت اولیه</span>
+              <span id="secondprice" style="color:green;;font-family:byekan;font-size:20px;float:left; margin-left: 50%;">قیمت نهایی:5000</span>
+             </li></a>
      </ul> 
     </div><!--book_detail-->
-    
+    </div><!--leftpart-->
 </div><!--mainbody-->
-<div id="contactus" style="display:none">
-<i class="fa fa-times-circle" aria-hidden="true"></i>
-</br>
-<span style="text-align:center;margin-right:10%;">آیا سوالی دارید؟</span><!--anyquestion-->
-<span id="name"><span>نام :</span><input type="text" value="نام"></span>
-<span id="lastname"><span> نام خانوادگی :</span><input type="text" value="نام خانوادگی"></span>
-<span id="email"><span> ایمیل :</span><input type="email" value="Example@gmail.com"></span>
-<span id="emailtxt"> <span>متن ایمیل :</span>
-<textarea rows="4" cols="50" >متن ایمیل</textarea></span>
+
+<div id="contactus" style="display:block">
+<span style="text-align:center;font-size:25px;;width:100%;float:right;padding-right:0px !important;margin-right:0px !important">ارتباط با ما</span>
+<div style="float:right;margin-top:20px;width:100%;height:105%;">
+<label>نام :</label><input type="text" placeholder="نام">
+<label> نام خانوادگی :</label><input type="text" placeholder="نام خانوادگی">
+<label> ایمیل :</label><input type="email" placeholder="Example@gmail.com">
+<label>متن ایمیل :</label><textarea rows="4" cols="50" placeholder="متن ایمیل خود را بنویسید..." ></textarea>
 <button type="submit" >ارسال</button>
+</div>
+
 </div><!--contactus-->
+
 <div id="footer">
 <span id="rightpart">
 	<span id="rightpart img"><img src="img/Statistics.png" width="57" height="40" alt=""/></span>
@@ -661,13 +856,21 @@
     <span id="source">تعداد منابع فارسی :</span>
     <span id="numofsource">119370</span>
 </span><!--rightpart-->
-<img id="logo" src="img/bookstore logo.jpg"  alt=""/>
+<img id="logo" src="img/photo_2016-11-25_23-54-42.jpg"  alt=""/>
 <span id="logotxt">فروشگاه آنلاین کتاب</span>
+<span id="social-network" style="float:right">
+    
+    <i id="twitter" class="fa fa-twitter" aria-hidden="true"></i>
+    <i id="linkedin" class="fa fa-linkedin" aria-hidden="true"></i>
+    <i id="youtube" class="fa fa-youtube" aria-hidden="true"></i>
+    <i id="facebook" class="fa fa-facebook" aria-hidden="true"></i>
+</span>
 </div><!--footer-->
 <div id="subfooter">کلیه حقوق این سایت مربوط به موسسه فرهنگی و اطلاع رسانی تبیان می باشد . </div><!--subfooter-->
 </body>
 <script>
 $(document).ready(function(e) {
+	
 	$(window).scroll(function(){
     clearTimeout(timer);    //not to work for each pixel...these two method should be together
 	var timer=setTimeout(function(){
@@ -675,19 +878,12 @@ $(document).ready(function(e) {
 	if(scroll>=55 )  {
 		$('#menu').addClass('fixed');
 		} //if
-	if(scroll>=155 )  {
-		$('#contactus').show(1000);
-		$('#contactus').addClass('fixedcontactus');
-		} //if
+	
 	else if(scroll<=55 )  {
 		$('#menu').removeClass('fixed');
 		
 		}
-	else if(scroll<=155 )  {
-		$('#contactus').hide(1000);
-		$('#contactus').removeClass('fixedcontactus');
-		
-		}
+	
 		},500); //not moving scroll work immediatly
 	
 	});
@@ -728,14 +924,6 @@ $(document).ready(function(e) {
 		$('#book_detail').hide(1000);
 		$('#books_general').show(1000);
 		})
-	$('#login').click(function(){
-		$('#register').hide();
-		$('#enter').show(1000);
-		})
-	$('#signup').click(function(){
-		$('#enter').hide();
-		$('#register').show(1000);
-		})
 	$('#detail-show i').click(function(){
 		$('#books_general').hide(500);
 		$('#book_detail').show(1000);
@@ -749,17 +937,29 @@ $(document).ready(function(e) {
 		btnNext:"#books #next",
 		btnPrev:"#books #prev"
 		});
-	$('#enter i').click(function(){
-	$('#enter').hide(500);	
+	$('.rightpartli').hover(function(e){
+		$(this).find('ul').slideDown(500);
+		$(this).find('ul').show();
 		
-		})
-	$('#register i').click(function(){
-	$('#register').hide(500);	
+		},
+	function(e){
+		$(this).find('ul').slideUp(500);
+		$(this).find('ul').hide();
 		
-		})
-	$('#contactus i').click(function(){
-	$('#contactus').hide(500);	
-		
+		});
+	$('#menuless327 #menuless327icon').click(function(e){
+		e.preventDefault();
+    e.stopPropagation();
+		$('#menuless327 ul').show(700);
+			})
+	$('#rightpartmin327 i').click(function(e){
+		e.preventDefault();
+    e.stopPropagation();
+		$('#rightpartmin327 ul').show(700);
+			})
+	$(document).click(function(e){
+		$('#menuless327 ul').hide(700);
+		$('#rightpartmin327 ul').hide(700);
 		})
 	
 });

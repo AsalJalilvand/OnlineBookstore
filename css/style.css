@@ -2,138 +2,11 @@
 body {
 	margin:0;
 	font-family:byekan;
+	background:#E8E6D9;
 	}
 body a {
 	color:black;
 	}
-#menu{
-	background: -moz-linear-gradient(#C7C7C7, #CBA7D3); /* For Firefox 3.6 to 15 */;
-	float:right;
-	width:100%;
-	height:55px;
-	position:relative;
-	}
-#menu ul {
-	margin-top:0.5%;
-	margin-bottom:0.5%;
-	
-	}
-#menu ul li{
-	display:inline;
-	list-style:none;
-	float:right;
-	text-align:right;
-	margin:0px 1.8% 15px 3%;
-	font-size:17px;
-	font-weight:bold;
-	cursor:pointer;
-	transition:all ease-in 1 ease-out 0;
-	position:relative;
-	height:46px;
-	
-	}
-#menu ul li:hover{
-	display:inline;
-	list-style:none;
-	float:right;
-	text-align:right;
-	margin:4px 1.8% 15px 3%;
-	font-size:18px;
-	color:white;
-	border-radius:5px 5px 5px 5px;
-	}
-#menu ul li img {
-	position: absolute;
-    right: 113%;
-    top: 18.4%;
-	}
-#menu ul li:hover img {
-     -webkit-transition: -webkit-transform .3s none;
-     transition:transform .3s none;
-	 -webkit-transform: rotate(180deg);
-     transform: rotate(180deg);
-	 width:22px;
-	 height:22px;
-		} 	
-#menu #login{
-	 position: absolute;
-     left: 13%;
-	 float: left;
-	 line-height: 2;
-	 cursor:pointer;
-	}
-#menu #loginicon img  {
-	cursor: pointer;
-    height: 60%;
-    left: 16%;
-    position: absolute;
-    width: 3%;
-	}
-#menu #signup{
-	cursor: pointer;
-    float: left;
-    left: 3%;
-    line-height: 2;
-    position: absolute;
-	}
-#menu #signupicon img  {
-	height: 56%;
-	position: absolute;
-    left: 7%;
-    width: 2%;
-	cursor:pointer;
-	}
-#menu #buybasket  {
-	background:-moz-linear-gradient(#D0CDCD,#EC22E5);
-    border-radius: 8px;
-    font-family: byekan;
-    height: 65%;
-    left: 27%;
-    padding-right: 8px;
-    padding-top: 5px;
-    position: absolute;
-    text-align: right;
-    width: 12%;
-	cursor:pointer;
-	}
-#menu #buybasket i {
-	 font-size: 200%;
-	 padding-top:0px !important;
-	}
-#menu #buybasket #buytxt {
-	float: left;
-    margin-left: 45%;
-    margin-top: 0px;
-	font-size: 90% !important;
-	}  
-#menu #buybasket #buynumber  {
-	background: rgba(224,209,224,1.00);
-    border-radius: 100%;
-    float: left;
-    font-family: byekan;
-    height: 72%;
-    margin-left: 8%;
-    margin-top: -18%;
-    text-align: center;
-    width: 14%;
-    font-size: 90%;
-	}
-#menu ul #guidesubmenu	 {
-	position:relative !important;
-	}	
-#menu ul #guidesubmenu ul li {
-	color: white !important;
-    display: inline !important ;
-    font-size: 64% !important;
-    list-style: outside none none !important;
-    width: 100% !important;
-    z-index: 5 !important;
-	margin-bottom:1px !important;
-	cursor:pointer !important;
-	}
-#menu ul #guidesubmenu ul li:hover {
-	color:red !important;
-	}	
 #submenu {
 	background: rgba(207,207,207,1.00);
     display: none;
@@ -158,50 +31,72 @@ body a {
 }
 #header  {
 	width:100%;
-	height:250px;
-	background:url(../img/icons%20pattern.png) repeat  ;
+	height:260px;
+	background:url(../img/masthead_background.jpg);
+	background-size: 100% 260px;
 	float:right;
 	position:relative;
 	font-family:byekan;
 	text-align:center;
+	font-size:14px;
 	}
 #header h2,#header h4 {
 	margin:0;
 	padding:0;
 	}	
+#header h2 {
+	
+	margin-top:10px !important;
+	}	
+#header #searchpart {
+	float:right;
+	width:100%;
+	height:100px;
+	position:relative;}
 #header input {
-	  border: 2px solid #cccccc;
+	background: #a468af none repeat scroll 0 0;
+    border: 2px solid #cccccc;
+    border-radius: 15px;
     display: block;
     font-family: byekan;
     font-size: 15px;
     height: 50px;
-    margin-bottom: 1.5%;
-    margin-left: 27%;
-    margin-top: 1.5%;
-    padding-right: 1%;
+    left: 37%;
+    position: absolute;
+    top: 51px;
+	
     text-align: right;
-    width: 46%;
+    width: 35%;
+	float:left;
+
 	}
-#header #searchicon img  {
-	 cursor: pointer;
-    height: 17%;
-    left: 27.5%;
+#header i  {
+	cursor: pointer;
+    float: left;
+    font-size: 30px;
+    left: 38%;
     position: absolute;
-    top: 45%;
-    width: 2%;
+    top: 60px;
+    z-index: 1;
+    
 	}
-#header #logo img {
-	border-radius: 80px;
-    float: right;
-    height: 90%;
+#header select {
+	background: #a468af none repeat scroll 0 0;
+    border-radius: 9px;
+    float: left;
+    font-family: byekan;
+    font-size: 11px;
+    height: 45px;
+    left:26%;
     position: absolute;
-    right: 2%;
-    top: 8%;
-    width: 17%;
-	}
+    top: 54px;
+    width: 10%;
+	text-align:center;
+	
+	}	
 #mainbody {
-	background-color:#F4F4F4;
-	float:right;
+	
+	float:left;
 	width:100%;
 	height:100%;
 	}
@@ -223,7 +118,7 @@ body a {
 #mainbody #slidernumber  {
 	margin:0;
 	margin-right:46%;
-
+    display:none;
 	}
 #mainbody #slider #slidernumber li{
 	background-color: #C0C0C0;
@@ -244,12 +139,18 @@ body a {
 	 border:3px outset #FFF;
 	}
 #mainbody #books {
-	border: 3px ridge black;
+	
+	border-radius:2px;
     height: 313px ;
     margin: 0px 1% auto ;
 	width:97% ;
 	float:right ;
 	position:relative;
+	border: solid transparent;
+    border-width: 5px;
+	border-image: url(../img/footer.png) 25 25  25 stretch; 
+	border-left-style:solid;
+	border-left-image:url(../img/footer.png) 25 25 25 25 round; 
 			}
 #mainbody #books li,#mainbody #books_general li {
 	border: 3px inset #666;
@@ -259,7 +160,7 @@ body a {
     margin: 1.2% ;
     padding: 0 ;
     position: relative ;
-    width: 9%;
+    width: 130px;
 	}
 #mainbody #books li img,#mainbody #books_general li img{
 	height: 63% !important;
@@ -280,7 +181,7 @@ body a {
     font-family: byekan !important;
     font-size: 51% !important;
     position: absolute !important;
-    right: 16% !important;
+    right: 0px !important;
     text-align: center !important;
 	
 	}
@@ -324,14 +225,24 @@ body a {
 	left:2px !important;
 }
 #mainbody #books_header #special,#mainbody #books_header #new,#mainbody #books_header #popular {
-	border: 3px ridge black;
+	color:white;
+    border-radius: 100%;
+    cursor: pointer;
     float: left;
     font-family: byekan;
-    margin-left: 21px;
+    height: 125px;
+    margin-left: 206px;
     margin-top: 46px;
     text-align: center;
-    width: 30%;
-	cursor:pointer;
+    width: 10%;
+	background:#921D5B;
+	line-height:120px;
+	}
+#mainbody #books_header #special {
+	background:#F9D302 !important;
+	}
+#mainbody #books_header #new {
+	background:#F78F25 !important;
 	}
 #mainbody #books_header {
 	float:right;
@@ -347,13 +258,14 @@ body a {
     width:100% !important;
 	height:313px !important;
 }
+/******footer****/
 #footer {
 	width:100%;
 	height:200px;
-	background:#ABABAB;
+	background:#E0E4CC;
 	float:right;
 	margin-top:10px;
-	color:white;
+	color:black;
 	font-family:byekan;
 	text-align:center;
 	font-size:90%;
@@ -361,23 +273,25 @@ body a {
 	}
 #footer #source {
     float: left;
-    margin-left: 37%;
+    font-size: 14px;
+    margin-left: 11%;
     margin-top: 9px;
 }
 #footer #rightpart {
 	float: right;
     margin: 5px;
 	margin-top:80px;
-	width:20%;
+	width:19%;
 	
 }
-#footer #rightpart #rightpartimg{
+#footer #rightpart #rightpartimg {
 	
 	display:block;
 	float: right;
     margin: 5px;
 	
 }
+
 #subfooter{
 	width:100%;
 	height:50px;
@@ -388,26 +302,27 @@ body a {
 	color:white;
 	font-family:byekan;
 	text-align:center;
-	font-size:90%;
+	font-size:70%;
 	direction:rtl;
 }
 #footer #logo {
 	 border-radius: 100%;
     float: left;
-    height: 51%;
+    height: 80px;
     margin: 3%;
-    width: 7%;
+    width: 80px;
 	
 	}
 #footer #logotxt {
 	float: left;
-    margin-left: -10%;
+    
     margin-top: 10% !important;
-	
+	font-size:70%;
 	} 
+/***footer*/
 #mainbody #books_general-header	
 {
-   background: rgba(196,156,207,1.00) none repeat scroll 0 0;
+  background:#A468AF;
     border-radius: 71px;
     float: right;
     font-family: byekan;
@@ -421,8 +336,12 @@ body a {
 	
 	}
 #mainbody #books_general , #mainbody #book_detail {
-    background: #EFE0F4 none repeat scroll 0 0;
-    float: right;
+	border-style: solid;
+	border-left-style: solid;
+	border-right-style: solid; 
+    border-image: url(../img/footer.png) 25 25 25 25 round; 
+	
+	float: right;
     height: 600px;
     margin-right: 0.5%;
     margin-top: 10px;
@@ -434,7 +353,7 @@ body a {
 	font-family:byekan;
 }
 #mainbody #books_general li {
-	width:9.5% !important;
+	width:130px!important;
 	margin:2.2% !important;
 	
 	
@@ -442,13 +361,14 @@ body a {
 #general-show i,#detail-show i {
 		    cursor: pointer;
 			float: left;
-			margin-left: 1%;
-		
+			font-size: 25px;
+			line-height: 5px;
+			margin-left: 3%;
 		}
 #book_detail ul li {
 		list-style:none;
 		float:right !important;
-		border-bottom:2px solid #CF3BC9;
+		border-bottom:4px double #2CAFA9;
 		padding:2px;
 		}
 #book_detail ul li img{
@@ -457,9 +377,9 @@ body a {
 			margin-left: 1.7%;
 			margin-right: 3%;
 			margin-top: 2%;
-			width: 15%;
+			width: 200px;
 			}
-#book_detail ul li #name , #book_detail ul li #language ,#book_detail ul li #writer-describtion , #book_detail ul li #subject,#book_detail ul li 			#note,#book_detail ul li #status{
+#book_detail ul li #name , #book_detail ul li #language ,#book_detail ul li #writer-describtion , #book_detail ul li #subject,#book_detail ul li #note,#book_detail ul li #status,#name,#language,#writer-describtion{
 		float:right;
 		margin:10px;
 		width:78%;
@@ -467,7 +387,7 @@ body a {
 		text-align:right;
 	}
 #book_detail ul li i{
-		background:#EF0AD1;
+		background:#2CAFA9;
 		cursor: pointer;
 		float: left;
 		font-size: 180%;
@@ -475,17 +395,18 @@ body a {
 		padding: 8px;
 	}
 #enter button,#register button{
-	background: #95E097 none repeat scroll 0 0;
+	background: #D7B921 none repeat scroll 0 0;
     font-family: byekan;
     font-size: 100%;
-    height: 13%;
+    height: 20%;
     line-height: 0;
     margin-right: 72.5%;
-    width: 25%;
+    width: 10%;
 	cursor:pointer;
+	border-radius:5px;
 	}
 #register button {
-	height:9% !important;
+	height:40px !important;
 }
 #enter {
 		float: left;
@@ -511,15 +432,16 @@ body a {
 		 cursor:pointer;
 		 }
 #register {
-		float: left;
-		height: 335px;
-		width: 19%;
-		background:#B9ECE6;
-		font-family:byekan;
-		font-size:100%;
-		direction:rtl;
-		z-index:1;
-		border:inset;
+		 
+			border: medium inset ;
+			direction: rtl;
+			float: right;
+			font-family: byekan;
+			font-size: 100%;
+			height: 335px;
+			width: 100%;
+			z-index: 1;
+			margin-top: 70px;
 		}
 #register .name{
 		text-align:right;
@@ -543,35 +465,50 @@ body a {
 #mainbody #rulesbody { 
 font-size:90% !important;
 }
+
+
+/***contact us***/
 #contactus {
 	float:right;
-	width:280px;
-	height:320px;
-	border-radius:3px;
-	background: -moz-linear-gradient(#B5B5B5 ,#EB9BDB); /* For Firefox 3.6 to 15 */;
-	text-align:right;
+	width:100%;
+	height:411px;
+	background:#2CAFA9;
 	direction:rtl;
 	padding:10px;
 	margin-right:0px;
-	}
-#contactus #name,#contactus #lastname,#contactus #email,#contactus #emailtxt{
+	padding-right:3%;
+	padding-left:3%;
+	border-radius:10px;
 	display:block;
-}
-#contactus textarea {
-	width:49%;
+	text-align:center;
+	margin:0 auto;
+	
+	}
+#contactus label{
+	float:right;
+	width:21%;
+	margin-bottom:-2px;
+	font-family:byekan;
 	}
 #contactus input,#contactus textarea {
-	float:left;
+	float:right;
+	width:70%;
+	display:block;
+	margin-top:10px;
+	border-radius:3px;
+	font-family:byekan;
 	}
 #contactus button {
-	float: right;
-    margin-right: 10%;
-    margin-top: 33%;
-    width: 30%;
+	border-radius: 2px;
+    float: right;
+    margin-right: 84%;
+    margin-top: 8px;
+    width: 7%;
+	font-family:byekan;
 	}
-#contactus i {
-	cursor:pointer;
-	}
+/***contact us***/
+
+
 .fixedcontactus {
 	
 	position:fixed !important;
@@ -579,3 +516,459 @@ font-size:90% !important;
 	right:0 !important;
 	z-index:1000 !important;
 	}
+#register #registerheader {
+	float:right;
+	background:rgba(215,185,33,1.00);
+	width:100%;
+	border-radius:5px;
+	font-size:20px;}
+#register #registerbody input{
+	float:left;
+	}
+#register #registerbody  {
+	float:right;
+	width:100%;
+	padding-top:10px !important;
+}
+#mainbody #rightpart{
+	height:110%;
+	float:right;
+	 margin-top: 53px;
+    width: 14%;
+	background:#2CAFA9;
+	border-radius:5px;
+	}
+#mainbody #rightpart  ul li,#mainbody #rightpartmin327  ul li{
+	list-style:none;
+	border-bottom:1px solid rgba(145,145,145,1.00);
+	float:right;
+	text-align:right;
+	cursor:pointer;
+	width:118%;
+	direction:rtl;
+	padding-right:5%;
+}
+#mainbody #rightpart  ul li:hover,#mainbody #rightpartmin327  ul li:hover{
+	color:white;
+	background:rgba(212,123,23,0.85);
+}
+#mainbody #rightpartmin327 {
+	
+	float:right;
+	 margin-top: 53px;
+    width:100%;
+	background:#2CAFA9;
+	border-radius:5px;
+	
+	}
+#mainbody #rightpartmin327 .rightpartli ul {
+	display:none;}
+#rightpartmin327 i {
+	color:#F26A00;
+	font-size:30px;
+	cursor:pointer;}
+#mainbody #leftpart{
+	height:100%;
+	width:85%;
+	float:left;
+	
+	}
+.poll {
+	background:#BB832D;
+	margin-top:60px;
+	border-bottom:none !important;
+	width:118.4% !important;
+	cursor:default !important;
+	}	
+.poll:hover {
+	background:#BB832D !important;
+	color:black !important;
+	}
+.poll input {
+	float:left;
+	margin-left:40%;
+	}
+#mainbody #rightpart ul li ul{
+	display:none;
+	}
+#mainbody #rightpart  ul li ul li{
+	list-style:none;
+	border-bottom:none;
+	float:right;
+	text-align:right;
+	cursor:pointer;
+	width:90%;
+	direction:rtl;
+	padding-left:5%;
+	font-size:12px;
+}
+#mainbody #rightpart  ul li ul li:hover{
+	color:black;
+	background:#2CAFA9;
+}
+#social-network{
+	float: right;
+    font-size: 20px;
+    margin-right: 12%;
+    margin-top: 142px;
+	
+	}
+#social-network i{
+	margin-right:10px;
+	cursor:pointer;
+	
+	border-radius:3px;
+	font-size:25px;
+	color:white !important;
+	height:30px;
+	width:30px;
+	border-radius:100%;
+	}
+#social-network #youtube{
+	background:red;
+	}
+#social-network #facebook{
+	background:#3B5998;
+	}
+#social-network #twitter{
+	background:#3487C8;
+	}
+#social-network #linkedin{
+	background:#0077B5;
+	}
+
+#finalprice {
+	 float:left;
+	 background:#ccc;
+	 margin-left:100px;
+	 text-align: center;
+    width: 100px;
+	 }
+#completebuy{
+	cursor:pointer;
+	 background: rgba(32,183,32,1.00) none repeat scroll 0 0;
+    border-radius: 11px;
+    float: left;
+    font-family: byekan;
+    font-size: 17px;
+    height: 41px;
+    margin-bottom: 20px;
+    margin-left: 148px;
+    margin-top: 0;
+    width: 100px;
+	}
+/*all menu*/
+#menuless327,#menuless768{
+	
+	background:url(../img/icons%20pattern.png) #2CAFA9 repeat  ;
+	float:right;
+	width:100%;
+	height:55px;
+	position:relative;
+	}
+#menuless327 #menuless327icon {
+	float:right;
+	cursor:pointer;
+	color:#F26A00;
+	margin-right:5%;
+	margin-top:3%;
+	}
+#menuless327 ul {
+	background:#E8E6D9;
+	margin-top:15%;
+	float:right;
+	margin-right:-10px;
+	width:14%;
+	z-index:1000 !important;
+	position:relative;
+	border-radius:3px;
+	}
+#menuless327 ul li{
+	float:right;
+	text-align:center;
+	width:100%;
+	display:block;
+	margin-top:3px;
+	font-size:10px;
+	font-weight:bold;
+	cursor:pointer;
+	
+	position:relative;
+	height:20px;
+	
+	text-align:right;
+	}
+#menuless327 ul li:hover{
+	color:white;
+	}	
+#menuless327  img,#menuless768  img  {
+	cursor: pointer;
+    height: 30px;
+    left: 14%;
+    position: absolute;
+    width: 25px;
+	top:8px;
+	}
+#menuless327 #signupicon i,#menuless768 #signupicon i {
+	color:#F26A00;
+	position: absolute;
+    left: 3%;
+    font-size:28px;
+	cursor:pointer;
+	top:10px;
+	}
+#menuless327 #buybasket,#menuless768 #buybasket   {
+	background:#A468AF;
+    border-radius: 8px;
+    font-family: byekan;
+    height: 48%;
+    left: 27%;
+	padding-right:2px;
+	padding-top:2px;
+    margin-top:9px;
+    font-size:70%;
+    position: absolute;
+    text-align: right;
+    width: 15%;
+	cursor:pointer;
+	}
+#menuless327 #buybasket i,#menuless768 #buybasket i {
+	 font-size: 200%;
+	 padding-top:0px !important;
+	}
+#menuless327 #buybasket #buynumber,#menuless768 #buybasket #buynumber  {
+	background: rgba(183,191,183,1.00);
+    border-radius: 100%;
+    float: left;
+    font-family: byekan;
+    height: 20px;
+    margin-left: 8%;
+    margin-top: 2px;
+    text-align: center;
+    width: 20px;
+    font-size: 90%;
+	}
+
+#menu{
+	
+	background:url(../img/icons%20pattern.png) #2CAFA9 repeat  ;
+	float:right;
+	width:100%;
+	height:55px;
+	position:relative;
+	}
+#menu ul ,#menuless768 ul{
+	margin-top:0.5%;
+	margin-bottom:0.5%;
+	
+	}
+#menu ul li{
+	display:inline;
+	list-style:none;
+	float:right;
+	text-align:right;
+	margin:0px 1.8% 15px 3%;
+	font-size:17px;
+	font-weight:bold;
+	cursor:pointer;
+	transition:all ease-in 1 ease-out 0;
+	position:relative;
+	height:46px;
+	
+	}
+#menu ul li:hover{
+	display:inline;
+	list-style:none;
+	float:right;
+	text-align:right;
+	margin:4px 1.8% 15px 3%;
+	font-size:16px;
+	color:white;
+	border-radius:5px 5px 5px 5px;
+	}	
+#menu #login{
+	 position: absolute;
+     left: 120px;
+	 float: left;
+
+	 cursor:pointer;
+	}
+#menu #loginicon img  {
+	cursor: pointer;
+    height: 30px;
+    left: 150px;
+    position: absolute;
+    width: 25px;
+	margin-left:3px;
+	}
+#menu #signup{
+	cursor: pointer;
+    float: left;
+    left: 17px;;
+    line-height: 2;
+    position: absolute;
+	}
+#menu #signupicon i {
+	color:#F26A00;
+	position: absolute;
+    left: 60px;;
+    width: 25px;
+	height:30px;
+	cursor:pointer;
+	margin-left:8px;
+	}
+#menu #buybasket  {
+	background:#A468AF;
+    border-radius: 8px;
+    font-family: byekan;
+    height: 35px;;
+    left: 27%;
+    padding-right: 8px;
+    padding-top: 5px;
+    position: absolute;
+    text-align: right;
+    width: 160px;;
+	cursor:pointer;
+	}
+#menu #buybasket i {
+	 font-size: 200%;
+	 padding-top:0px !important;
+	}
+#menu #buybasket #buytxt {
+	float: left;
+    margin-left: 45%;
+    margin-top: 0px;
+	font-size: 85% !important;
+	}  
+#menu #buybasket #buynumber  {
+	background: rgba(183,191,183,1.00);
+    border-radius: 100%;
+    float: left;
+    font-family: byekan;
+    height: 23px;
+    margin-left: 8%;
+    margin-top: -35px;
+    text-align: center;
+     width: 23px;
+    font-size: 90%;
+	
+	}
+#menuless768 ul li{
+	display:inline;
+	list-style:none;
+	float:right;
+	text-align:right;
+	margin:13px 1.8% 15px 3%;
+	font-size:65%;
+	font-weight:bold;
+	cursor:pointer;
+	transition:all ease-in 1 ease-out 0;
+	position:relative;
+	height:46px;
+	
+	}
+#menuless768 ul li:hover{
+	display:inline;
+	list-style:none;
+	float:right;
+	text-align:right;
+	
+	
+	color:white;
+	border-radius:5px 5px 5px 5px;
+	}
+/*all menu*/
+
+
+
+
+@media only screen and (min-width: 768px) {
+#menu {display:block;}
+#menuless327 {display:none;}
+#menuless768 {display:none;}
+#rightpartmin327 {display:none;}
+#rightpart {display:block;}
+	}
+@media only screen and (min-width: 1000px) {
+#social-network{display:none;}
+#footer{display:block;}
+#rightpartmin327 {display:none;}
+#rightpart {display:block;}
+
+	}
+@media only screen and (min-width: 0px) and (max-width: 400px) {
+#contactus label{
+	
+	width:20%;
+	margin-top:20px;;
+	
+	font-size:50%;
+	}
+#contactus input,#contactus textarea {
+	
+	width:70%;
+	
+	}
+#contactus button {
+	font-size:50%;
+    width: 10%;
+	}	
+	
+}
+@media only screen and (min-width: 0px) and (max-width: 327px) {
+#menu {display:none;}
+#menuless768 {display:none;}
+#menuless327 {display:block;}
+
+	}
+@media only screen and (min-width: 327px) and (max-width: 768px) {
+#menu {display:none;}
+#menuless327 {display:none;}
+#menuless768 {display:block;}
+
+	}
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
+#rightpartmin327 {display:block;}
+#rightpart {display:none;}
+#footer{display:none;}
+#social-network {display:block;}
+}
+@media only screen and (min-width: 0px) and (max-width: 1100px) {
+#mainbody #books_header{
+	width:97%;
+	float:right;
+	position:relative;
+	margin-top:5px;
+	 height: 40px;
+	 }
+#mainbody #books_header #special,#mainbody #books_header #new,#mainbody #books_header #popular {
+    cursor: pointer;
+    float: right;
+    font-family: byekan;
+    height: 100%;
+    background:none;
+	line-height:40px;
+	
+	position:absolute;
+	margin-top:0px;
+	margin-right:0px;
+	border-radius:10px;
+	}
+#mainbody #books_header #special{
+	 width:30%;
+	background:blue;
+    right:2%;
+	
+	}
+#mainbody #books_header #new{
+	 right:35%;
+	 width: 30%;
+	background:yellow;
+	
+	}
+#mainbody #books_header #popular{
+	right:70%;
+	background:#921D5B;
+	 width:30%;
+}
+}
