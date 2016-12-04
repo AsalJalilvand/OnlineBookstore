@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/font.css">
+<meta charset="utf-8">
+<title>دروازه ی پرداخت بانک ملی</title>
+</head>
+<style>
+Body {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: url(img/bg.jpg);
+	font-family:byekan;
+	font-size:14px;
+	direction:rtl;
+}
+#bill_logo{
+ height: 130px;
+    width: 632px;
+	margin:10px auto;
+	display:block;	
+	position:relative;
+}
+#maindiv {
+	background-color: #d7d7d7;
+    border-color: #898989;
+    border-style: solid;
+    border-width: thin;
+    text-align: center;
+    width: 640px;
+	margin:10px auto;
+	height:540px;
+	padding:10px;
+	}
+#logo{
+	float: right;
+    position: absolute;
+    right: 0;
+    top: 15px;
+	
+	}
+#acceptorname {
+	 display: block;
+    float: right;
+    margin: 7px 7px 7px 8px;
+    text-align: right;
+    width: 48%;
+	}
+#acceptorname #buyfrom{
+	float:left;
+	font-size:18px;
+	background:#6E6E6E;
+	color:white;
+	}
+#headerpart {
+	border-bottom: 2px solid rgba(244, 86, 14, 1);
+    float: right;
+    height: 21%;
+    width: 100%;
+	}
+#card_info #headertxt {
+	margin-bottom:30px;
+	float:right;
+	text-align:center;
+	display:block;
+	width:100%;
+	}
+#card_info	#card_number{
+	float:right;
+	text-align:right;
+	margin-bottom:10px;
+	width:100%;}
+Body input {
+	float: left;
+    margin-left: 10%;
+    text-align: left;
+	}
+Body button {
+	 background-color: #b8b8b8;
+    color: #121212;
+    font-size: 12px;
+    width: 90px;
+	margin-top:20px;
+	}
+</style>
+<body>
+<div id="maindiv">
+<div id="bill_logo">
+<span id="logo"><img src="img/logo.png" width="163" height="49" alt=""/></span><!--logo-->
+<img src="img/bill_logo.jpg" width="632" height="130" alt=""/>
+</div><!--bill_logo-->
+<div id="headerpart">
+<div id="acceptorname">نام پذیرنده: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span id="buyfrom">فروشگاه آنلاین کتاب</span>
+</div><!--acceptorname-->
+<div id="acceptorname">مبلغ قابل پرداخت: &nbsp;&nbsp;&nbsp;&nbsp;
+<span id="buyfrom">1000000</span>
+</div><!--acceptorname-->
+</div><!--headerpart-->
+<div id="card_info">
+<div id="headertxt"><b>اطلاعات کارت</b></div><!--headertxt-->
+<span id="card_number">
+شماره کارت
+<input style="width:50px;"  type="text">
+<input style="width:50px;" type="text">
+<input style="width:50px;" type="text">
+<input style="width:50px;" type="text">
+</span><!--card_number-->
+<span id="card_number">
+رمز اینترنتی کارت
+<input type="password">
+</span><!--card_number-->
+<span id="card_number">
+رمزدوم کارت(CCV2)
+<input type="password">
+</span><!--card_number-->
+<span id="card_number">
+تاریخ انقضا
+<input type="date">
+<span style="float:left;margin-left:12px;">/</span>
+<input style="margin-left:12px;" type="date">
+</span><!--card_number-->
+</div><!--card_info-->
+
+<a href="completepayment.html"><button type="submit">پرداخت</button></a>
+<button type="submit">انصرف</button>
+
+</div><!--maindiv-->
+</body>
+</html>
